@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="Images/app-icon.png"">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMeister</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div id="container">
+        <aside>
+            <div id="aside-upper">
+                <h1>TaskMeister</h1>
+                <div id="aside-user">
+                    <img src="https://i.pinimg.com/736x/81/d9/07/81d9077a4fb4eca151c3e0bd5ea50f06.jpg" alt="user-image">
+
+                    <h3>code.withturtle</h3>
+                </div>    
+            </div>
+
+            <hr>
+
+            <div id="aside-lower">
+                <div id="aside-lower-one">
+                    <i class="ri-calendar-2-fill"></i>
+                    <h4>Today's tasks</h4>
+                </div>
+                <div id="aside-lower-two">
+                    <div class="task-category">
+                        <i class="ri-circle-fill" style="color: #3fd4f4"></i>
+                        <h4>Personal</h4>
+                    </div>
+                    <div class="task-category">
+                        <i class="ri-circle-fill" style="color: #fd99af;"></i>
+                        <h4>College</h4>
+                    </div>
+                    <div class="task-category">
+                        <i class="ri-circle-fill" style="color: #fac608"></i>
+                        <h4>Freelance</h4>
+                    </div>
+                    <div class="task-category add-icon">
+                        <i class="ri-add-circle-fill"></i>
+                        <h4>Add filter</h4>
+                    </div>
+                </div>
+                <div id="aside-lower-three">
+                    <div class="aside-lower-three-elem">
+                        <a href=""><i class="ri-calendar-schedule-line"></i>
+                            <h4>Scheduled task</h4></a>
+                    </div>
+                    <div class="aside-lower-three-elem">
+                        <a href="setting.html"><i class="ri-settings-3-line"></i>
+                            <h4>Setting</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <main>
+            <div id="main-quote">
+                <h3>A dream doesn't become reality through magic,</h3>
+                <h2>it takes sweat, determination and hard work ✨</h2>
+            </div>
+            <div id="main-input">
+                <div id="circle">
+                    <i class="ri-circle-fill" style="color: #3fd4f4"></i><i class="ri-circle-fill" style="color: #fd99af;"></i><i class="ri-circle-fill" style="color: #fac608"></i>
+                </div>
+                <input id="input-box" type="text" placeholder="What is your next task?">
+                <i  onclick="addTask()" class="ri-add-circle-fill add"></i>
+            </div>
+            <div id="main-task">
+               
+               <ul id="task-list">
+            
+               </ul> 
+                
+            </div>
+        </main>
+    </div>
+
+
+
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+    <script src="script.js"></script>
+</body>
+</html>
