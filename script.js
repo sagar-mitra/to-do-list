@@ -46,91 +46,91 @@ showData();
 
 // animation 
 
-let aside = document.querySelector("aside")
+// let aside = document.querySelector("aside")
 
-let tl =  gsap.timeline();
+// let tl =  gsap.timeline();
 
-tl.from(aside, {
-    x:-390,
-    duration: 1,
-    delay: 1,
-})
+// tl.from(aside, {
+//     x:-390,
+//     duration: 1,
+//     delay: 1,
+// })
 
-tl.from("#aside-upper", {
-    x: -20,
-    duration: 0.9,
-    // stagger: 2,
-    opacity: 0
-})
+// tl.from("#aside-upper", {
+//     x: -20,
+//     duration: 0.9,
+//     // stagger: 2,
+//     opacity: 0
+// })
 
-tl.from("#aside-user img", {
-    x: -20,
-    duration: 0.6,
-    opacity: 0
-})
+// tl.from("#aside-user img", {
+//     x: -20,
+//     duration: 0.6,
+//     opacity: 0
+// })
 
-tl.from("#aside-user h3", {
-    x: -20,
-    duration: 0.6,
-    opacity: 0
-})
+// tl.from("#aside-user h3", {
+//     x: -20,
+//     duration: 0.6,
+//     opacity: 0
+// })
 
-tl.from("hr", {
-    x: -20,
-    duration: 0.6,
-    opacity: 0
-})
+// tl.from("hr", {
+//     x: -20,
+//     duration: 0.6,
+//     opacity: 0
+// })
 
-tl.from("#aside-lower i", {
-    x: -20,
-    duration: 0.6,
-    opacity: 0,
-})
+// tl.from("#aside-lower i", {
+//     x: -20,
+//     duration: 0.6,
+//     opacity: 0,
+// })
 
-tl.from("#aside-lower h4", {
-    x: -20,
-    duration: 0.6,
-    opacity: 0,
-})
+// tl.from("#aside-lower h4", {
+//     x: -20,
+//     duration: 0.6,
+//     opacity: 0,
+// })
 
-tl.from("#main-quote h3", {
-    y: -20,
-    duration: 0.6,
-    opacity: 0,
-})
+// tl.from("#main-quote h3", {
+//     y: -20,
+//     duration: 0.6,
+//     opacity: 0,
+// })
 
-tl.from("#main-quote h2", {
-    y: -20,
-    duration: 0.6,
-    opacity: 0,
-})
+// tl.from("#main-quote h2", {
+//     y: -20,
+//     duration: 0.6,
+//     opacity: 0,
+// })
 
-tl.from("#main-input", {
-    y: -20,
-    duration: 0.6,
-    opacity: 0,
-})
+// tl.from("#main-input", {
+//     y: -20,
+//     duration: 0.6,
+//     opacity: 0,
+// })
 
-tl.from("#circle i", {
-    x: -20,
-    duration: 0.6,
-    opacity: 0,
-    stagger: 0.4
-})
+// tl.from("#circle i", {
+//     x: -20,
+//     duration: 0.6,
+//     opacity: 0,
+//     stagger: 0.4
+// })
 
-tl.from("#input-box", {
-    x: -20,
-    duration: 0.6,
-    opacity: 0,
+// tl.from("#input-box", {
+//     x: -20,
+//     duration: 0.6,
+//     opacity: 0,
     
-})
+// })
 
-tl.from(".add", {
+// tl.from(".add", {
     
-    duration: 0.6,
-    opacity: 0,
+//     duration: 0.6,
+//     opacity: 0,
     
-})
+// })
 
 
 
